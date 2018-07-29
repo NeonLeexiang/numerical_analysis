@@ -1,0 +1,40 @@
+第一题：
+一，（2）追赶法求
+ThomasMethod(a, d):
+a = matrix A; matrix A 为系数矩阵
+d = matrix B; matrix B 为值矩阵
+u 为追赶法u
+v 为追赶法v
+第二题
+二，（）Newton迭代法
+分三种牛顿迭代。
+
+
+ThomasMethod.py:
+追赶法主函数
+输入：A系数矩阵，D值矩阵
+输入：解x的列表，和u，v列表
+
+
+judgement_Thomas.py:
+判断是否满足使用追赶法的条件
+输入：系数矩阵A
+输出：True or False
+
+
+test_ThomasMethod.py:
+对追赶法的测试
+
+
+Newton.py:
+3种牛顿迭代法主函数包括函数的求一阶导数函数
+输入:函数f，初值x，精度e
+输出：解x，每一次迭代的x的值
+
+
+matPlot4Newton.py:
+牛顿迭代法的图像分析：
+用于直观表示牛顿迭代法的每一次迭代值与精确值的距离，
+直观的表达牛顿迭代法的收敛速度
+输入:每一次迭代的x所构建的列表，精确解x
+输出:x和x和精确解的距离的函数图像
